@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style parent="@android:style/Theme.Holo.Light.DarkActionBar" name="Theme.Zakupy">
+    <item name="android:windowNoTitle">false</item>
+    <item name="android:windowDisablePreview">true</item>
+          
+  </style>
+</resources>
