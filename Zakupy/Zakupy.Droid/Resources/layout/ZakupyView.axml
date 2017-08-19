@@ -6,11 +6,11 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <LinearLayout
-      android:paddingTop="2dip"    
-      android:paddingBottom="2dip"    
+        android:paddingTop="2dip"
+        android:paddingBottom="2dip"
         android:layout_margin="4dip"
         android:background="@drawable/Background"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:orientation="horizontal"
         android:minWidth="25px"
         android:minHeight="25px"
@@ -18,21 +18,21 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1">
         <TextView
+            android:layout_weight="1"
             android:layout_margin="2dip"
             android:padding="2dip"
-            android:layout_weight="1"
             android:text="Chleb"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="wrap_content"
+            android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:id="@+id/textNazwa" />
         <TextView
+            android:layout_weight="1"
             android:layout_margin="2dip"
             android:padding="2dip"
-            android:layout_weight="1"
             android:text="2,56"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="wrap_content"
+            android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:id="@+id/textCena" />
         <ImageView
